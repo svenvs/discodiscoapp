@@ -1,0 +1,116 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <link href="https://fonts.googleapis.com/css?family=VT323&display=swap" rel="stylesheet">
+    <link href="style.css" rel="stylesheet" type="text/css" />
+
+    <meta name="theme-color" content="#000000"/>
+    <link rel="icon" sizes="512x512" href="images/icons/icon-512x512.png">
+
+    <meta name="apple-mobile-web-app-status-bar-style" content="black">
+    <title>Disco Disco app</title>
+  </head>
+<body>
+  <h1 class="gradient-text">DISCO DISCO APP</h1>
+  <div class="lightController">
+    <h2>light controller</h2>
+    <p>status: <span id="statusLights">not connected</span> <button id="lightconnect">can I haz conneciton?</button></p>
+    <button id="blackout">BLACKOUT</button>
+    <button id="red">Red</button>
+    <button id="green">Green</button>
+    <button id="blue">Blue</button>
+    <button id="rainbow">Rainbow</button>
+
+    <div id="container">
+      <video autoplay="true" id="videoElement">
+      
+      </video>
+    </div>
+
+  </div>
+<div>
+  <h2>soundboard</h2>
+  <div class="soundboard">   <div class="parent">
+    <button class="groupOne">-</button>
+    <button class="groupOne">-</button>
+    <button class="groupOne">-</button>
+    <button class="groupOne">-</button>
+    <button class="groupTwo" >-</button>
+    <button class="groupTwo">-</button>
+    <button class="groupTwo">-</button>
+    <button class="groupTwo">-</button>
+
+    <button class="groupOne" id="button-60">SFX stars</button>
+    <button class="groupOne" id="button-61">SFX wobble</button>
+    <button class="groupOne" id="button-62">base linehigh</button>
+    <button class="groupOne" id="button-63">base linelow</button>
+    <button class="groupTwo">-</button>
+    <button class="groupTwo">-</button>
+    <button class="groupTwo">-</button>
+    <button class="groupTwo">-</button>
+
+    <button class="groupOne" id="button-56">Drum loop18</button>
+    <button class="groupOne" id="button-57">Drum loop26</button>
+    <button class="groupOne">-</button>
+    <button class="groupOne">-</button>
+    <button class="groupTwo">-</button>
+    <button class="groupTwo">-</button>
+    <button class="groupTwo">-</button>
+    <button class="groupTwo">-</button>
+
+    <button class="groupOne" id="button-52">kick</button>
+    <button class="groupOne" id="button-53">highhat</button>
+    <button class="groupOne" id="button-54">Piano Riff5</button>
+    <button class="groupOne" id="button-55">Piano Riff6</button>
+    <button class="groupTwo">-</button>
+    <button class="groupTwo">-</button>
+    <button class="groupTwo">-</button>
+    <button class="groupTwo">-</button>
+
+    <button class="groupThree">-</button>
+    <button class="groupThree">-</button>
+    <button class="groupThree">-</button>
+    <button class="groupThree">-</button>
+    <button class="groupFour">-</button>
+    <button class="groupFour">-</button>
+    <button class="groupFour">-</button>
+    <button class="groupFour">-</button>
+
+    <button class="groupThree">-</button>
+    <button class="groupThree">-</button>
+    <button class="groupThree">-</button>
+    <button class="groupThree">-</button>
+    <button class="groupFour">-</button>
+    <button class="groupFour">-</button>
+    <button class="groupFour">-</button>
+    <button class="groupFour">-</button>
+
+    <button class="groupThree">-</button>
+    <button class="groupThree">-</button>
+    <button class="groupThree">-</button>
+    <button class="groupThree">-</button>
+    <button class="groupFour">-</button>
+    <button class="groupFour">-</button>
+    <button class="groupFour">-</button>
+    <button class="groupFour">-</button>
+
+    <button class="groupThree">-</button>
+    <button class="groupThree">-</button>
+    <button class="groupThree">-</button>
+    <button class="groupThree">-</button>
+    <button class="groupFour">-</button>
+    <button class="groupFour">-</button>
+    <button class="groupFour">-</button>
+    <button class="groupFour">-</button>
+ </div></div>
+
+</div>
+
+<script src="https://cdnjs.cloudflare.com/ajax/libs/howler/2.2.3/howler.min.js" integrity="sha512-6+YN/9o9BWrk6wSfGxQGpt3EUK6XeHi6yeHV+TYD2GR0Sj/cggRpXr1BrAQf0as6XslxomMUxXp2vIl+fv0QRA==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+<script src="serial.js"></script>
+<script src="buttonz.js"></script>
+</body>
+</html>

@@ -1,0 +1,79 @@
+.parent {
+  width: 50vw;
+  height: 50vw;
+  display: grid;
+  grid-template-columns: repeat(8, 1fr);
+  grid-template-rows: repeat(8, 1fr);
+  grid-column-gap: 2px;
+  grid-row-gap: 2px;
+}
+
+.lightController {
+  float: left;
+  width: 35vw;
+}
+
+body {
+  background-color: #161D30;
+  color: #B5B5BC;
+}
+
+.gradient-text {
+  /* Fallback: Set a background color. */
+  background-color: #B5B5BC;
+  
+  /* Create the gradient. */
+  background-image: linear-gradient(45deg, #C55BC6, #7194ED);
+  
+  /* Set the background size and repeat properties. */
+  background-size: 100%;
+  background-repeat: repeat;
+
+  /* Use the text as a mask for the background. */
+  /* This will show the gradient as a text color rather than element bg. */
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent; 
+  -moz-background-clip: text;
+  -moz-text-fill-color: transparent;
+}
+
+button {
+  background-color: #7096EF;
+  border: none;
+  color: white;
+  padding: 2px 2px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 18px;
+}
+
+#container {
+  margin-top: 10px;
+	width: 30vw;
+	height: 30vw;
+	border: 10px #333 solid;
+}
+#videoElement {
+	width: 30vw;
+	height: 30vw;
+	background-color: #666;
+}
+
+.groupOne {
+	background-color: #5a285b;
+}
+
+.groupTwo {
+	background-color: #0c8818;
+}
+.groupThree {
+  background-color: #afb537;
+}
+.groupFour {
+  background-color: #3767b5;
+}
+
+.isPlaying {
+	background-color: #C55BC6 !important;
+}
